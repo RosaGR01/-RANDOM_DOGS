@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle at 109.45% 50%, #ff9e5c 0, #ff9167 8.33%, #ff8270 16.67%, #ff7276 25%, #ff637a 33.33%, #ff537a 41.67%, #e34477 50%, #c53772 58.33%, #aa2d6d 66.67%, #932668 75%, #7e2265 83.33%, #6c2062 91.67%, #5c2061 100%);
+}
+
+header{
+    width: 95%;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.411);
+}
+header img{
+    display: block;
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+header h1{
+    width: 85%;
+    height: 100%;
+    padding: auto;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+}
+main{
+    width: 95%;
+    height: 120vh;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.411);
+}
+main .random{
+    width: 100%;
+    text-align: center;
+}
+main .random button{
+    margin-top: 10px;
+    width: 150px;
+    height: 25px;
+    background-color: #aa2d6d;
+    color: white;
+    border: none;
+    border-radius: 15px;
+
+}
+ main .cards{
+    display: flex;
+    justify-content: space-around;
+}
+.car{
+    width: 25%;
+    height: 180px;
+    border-radius: 10px;
+    background-color: white;
+}
+.car img{
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+main .btn-recargar{
+    margin-top: 20px;
+    margin-left: 0%;
+    width: 100px;
+    height: 30px;
+    background-color: #f0632c;
+    border-radius: 10px;
+    border: none;
+
+
+}
+main .favoriteDogs{
+    width: 95%;
+    height: 70vh;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #932668;
+}
+main .favoriteDogs h3{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 20px;
+}
+main .fav{
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+main .fav article{
+    height: 100%;
+
+}
+
+main .favoriteDogs .fav img{
+    margin: 20px;
+}
+main .favoriteDogs .fav button{
+    position: absolute;
+    float: inline-end;
+    background-color: #ff8270;
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    margin-left: -170px;
+    margin-top: 110px;
+}
